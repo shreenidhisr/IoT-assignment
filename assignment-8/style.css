@@ -1,0 +1,54 @@
+header{
+  width: 100%;
+  background-color: grey;
+  display: block;
+
+
+}
+li > a{
+  background-color: white;
+  border-radius: 30%;
+}
+
+nav{
+  float: right;
+}
+nav li{
+  list-style-type: none;
+  display: inline;
+  margin-right: 5px;
+  padding: 5px;
+  font-size: 20px;
+}
+article,aside{
+  float: left;
+
+}
+
+article{
+  width: 40%;
+}
+
+section{
+  margin-top: 30px;
+}
+aside{
+  width: 50%;
+  float: right;
+}
+footer{
+  clear: both;
+  background-color: grey;
+  height: 50px;
+  text-align: center;
+}
+
+aside{
+  background-color: tomato;
+}
+
+aside li{
+  margin: 3px;
+  list-style-type: none;
+  background-color: pink;
+}
